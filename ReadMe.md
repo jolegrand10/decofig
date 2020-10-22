@@ -5,7 +5,7 @@ An example of usage of the Decorator design pattern with geometrical figures in 
 
 It uses the turtle library to draw the figures.
 
-##Abstract figure
+## Abstract figure
 The abstract figure is defined in figure.py by the class Figure. Its attributes are a list of points and a dict of properties.
 
 ### Prop
@@ -22,13 +22,13 @@ The Figure class provides public methods:
 - draw  draws the figure using the turtle library
 - translate/translate1 and rotate/rotate1 are isometries
 
-##Concrete figures
+## Concrete figures
 Concrete figures are Dot, Line, Polyline, Polygon, Rectangle, Rhombus
 
-##Abstract decorator
+## Abstract decorator
 The abstract decorator is defined in figuredecorator.py by the class FigureDecorator. 
 
-##Concrete decorators
+## Concrete decorators
 Concrete decorators have names starting with "with" :
 - with dots shows a small diskshape at the beginning and the end of each line segment
 - with centre shows a small diskshape at the center of gravity of a figure
@@ -50,15 +50,15 @@ The following are isometries,ie transformations that preserve figure's shape, si
 - centreColor
 
 ### WithTransparency
-####Added props
+#### Added props
 - None.
 Modifies the background color only.
 ### WithTranslation
-####Added props
+#### Added props
 - None.
 Modifies points only.
 ### WithRotation
-####Added props
+#### Added props
 - None.
 Modifies points only.
 ## About this branch
