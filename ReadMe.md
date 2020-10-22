@@ -62,10 +62,11 @@ Modifies points only.
 - None.
 Modifies points only.
 ## About this branch
-Branch is named "master"
+Branch is named "master".
+
 The option in this branch is 
 - to `__repr__` a figure in a way that reflects properly the current figure but not the actual
 instantiations that led to this result.
-- to `deepcopy` the starting figure in the decoration process so that the decoration process does not alter
-the original figure. The original figure survives unchanged and may be safely reused.
+- to `deepcopy` the original figure so that the decoration process does not alter
+its starting point. It remains unchanged and may be safely reused.
 
