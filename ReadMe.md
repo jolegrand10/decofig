@@ -3,7 +3,7 @@ This is decofig's read me file.
 
 An example of usage of the Decorator design pattern with geometrical figures in Python.
 
-It uses the turtle library to draw the figures.
+It uses the turtle library to draw the geormetrical figures.
 
 ## Abstract figure
 The abstract figure is defined in figure.py by the class `Figure`. Its attributes are a list of points and a dict of properties.
